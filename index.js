@@ -1,4 +1,4 @@
-//? Ecommerce Techmarket *****
+//? Junior Projects Developers *****
 //const {initDb} = require('./initDb');
 const server = require('./src/app.js');
 const { conn } = require('./src/db.js');
