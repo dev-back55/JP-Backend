@@ -1,0 +1,39 @@
+{
+  "name": "jp-backend",
+  "version": "1.0.0",
+  "description": "Junior Projects Dev App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpitrella/PF-BackEnd.git"
+  },
+  "author": "Group 25A - Henry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gpitrella/PF-BackEnd/issues"
+  },
+  "homepage": "https://github.com/gpitrella/PF-BackEnd#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.18.1",
+    "ioredis": "^4.19.2",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "passport": "^0.5.3",
+    "passport-google-oauth20": "^2.0.0",
+    "pg": "^8.5.1",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
